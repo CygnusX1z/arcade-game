@@ -1,6 +1,10 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+The objective of the game is to reach the water at the top of game board
 
-for self-checking their submission.
+Player can move left, right, up, down by using the keyboard arrow keys
+
+If player collides with any of the enemies (bugs) the game is over and is reset to starting positions
+
+The enemies will start in random rows and at random speeds everytime the game is reset.

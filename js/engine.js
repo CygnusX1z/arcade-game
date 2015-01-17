@@ -80,7 +80,8 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        checkCollisions(allEnemies,player);
+        //Check for collisions between enemies and player than reset game
+        checkCollisions(allEnemies,player);        
     }
 
     /* This is called by the update function  and loops through all of the
